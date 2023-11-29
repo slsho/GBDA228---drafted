@@ -1,179 +1,203 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<body>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
-  <title>Sophia Ho</title>
-<style>
-  h2 {
-  color: black;
-  }
-  
-  body {
-  color: white; 
-  }
-  #section2, #section3, #section4 {
-  background-color: #FFEFF1;
-  height: 700px;  
-  }
-  
+  <body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+    <title>Sophia Ho</title>
+    <style>
+      h2 {
+        color: black;
+      }
+
+      body {
+        color: white;
+      }
+
+      #section2,
+      #section3,
+      #section4 {
+        background-color: #FFEFF1;
+        height: 700px;
+      }
+
       .header {
-      font-family: "Sacramento", script;
-      background-color: #F3D1DC;
-      color: #B16E46;
-      font-size: 30px;
-      padding: 20px;
-      text-align: center;
-    }
-  .subtitle {
-      font-family: "Playfair Display", serif;
-      font-size: 25px;
-      letter-spacing: 5px;
-      font-style: italic;
-      text-align: center;
-    }
-     .links {
-      background-color: #A94064;
-      text-align: center;
-      word-spacing: 10px; 
-      padding: 15px;
-    }
-  
-  #section0{
-     background-color: #FFEFF1;
-     height: 600px; 
-  }
- 
-    #section0 .container {
-      color: #B16E46;
-      font-size: 20px;
-      text-align: right;
-      padding: 30px;
-      width: 650px;
-    }
-  
-    #section0 .image {
-      float: right;
-      padding: 40px;
-    }
-  
-  #section1 {
-     background-color: #FFEFF1;
-     height: 1000px; 
-  }
-  
-   #section1 .container {
-      color: #B16E46;
-      font-size: 20px;
-      text-align: center;
-     float: center;
-      padding: 10px;
-      width: 80%;
-     margin-left: 10%;
-     margin-right: 10%;
-    } 
-  
-    #section1 .rectangle {
-      width: 400px;
-      height: 15px;
-      position: relative; 
-      top: -55px;
-      background-color: #A94064;
-    }
-  
-     #section1 .rectangle1 {
-      width: 400px;
-      height: 15px;
-      position: relative; 
-      left: 620px;
-      top: -69px;
-      background-color: #A94064;
-    }
-  
-  #section2 {
-    background-color: #bbb5a7;
-  }
-    #section3 {
-    background-color: #8b2e25;
-  }
-    #section4 {
-    background-color: #787254;
-  }
-  
-  /* Remove underline from links/change colour */
-    a {
-      text-decoration: none;
-      color: #F3D1DC;
-    } 
-     #footer {
-      background-color: #F3D1DC;
-      color: #B16E46;
-      padding: 10px;
-      text-align: center;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
-  
-</style>
- <div class="header">
-    <h1> Sophia Ho </h1>
-    <p class="subtitle"> ˗ˋˏ ♡ ˎˊ˗ an aspiring digital creator! ˗ˋˏ ♡ ˎˊ˗</p>
-  </div>
-  <div class="links">
-<a href="#section0">About |</a>
-<a href="#section1">Hobbies |</a>
-<a href="#section2">Projects |</a>
-<a href="#section3">Inspirations |</a>
-<a href="#section4">Quiz </a> 
-  </div>
-<div id="section0">
-    <div class="image">
-    <img src="sophiaho.png" alt="Sophia's Image" width="400px">
+        font-family: "Sacramento", script;
+        background-color: #F3D1DC;
+        color: #B16E46;
+        font-size: 30px;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .subtitle {
+        font-family: "Playfair Display", serif;
+        font-size: 25px;
+        letter-spacing: 5px;
+        font-style: italic;
+        text-align: center;
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        background-color: #A94064;
+      }
+
+      nav a {
+        text-align: center;
+        word-spacing: 30px;
+        padding: 15px;
+        transition: font-weight 0.21s;
+      }
+
+      nav a:hover {
+        font-weight: bold;
+      }
+
+      #section0 {
+        background-color: #FFEFF1;
+        height: 600px;
+      }
+
+      #section0 .container {
+        color: #B16E46;
+        font-size: 20px;
+        text-align: right;
+        padding: 80px;
+        width: 650px;
+      }
+
+      #section0 .image {
+        float: right;
+        padding: 40px;
+      }
+
+      #section1 {
+        background-color: #FFEFF1;
+        height: 2000px;
+      }
+
+      #section1 .container {
+        color: #B16E46;
+        font-size: 20px;
+        text-align: center;
+        float: center;
+        padding: 10px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+
+      #section1 .rectangle {
+        width: 400px;
+        height: 15px;
+        position: relative;
+        top: -55px;
+        background-color: #A94064;
+      }
+
+      #section1 .rectangle1 {
+        width: 400px;
+        height: 15px;
+        position: relative;
+        left: 645px;
+        top: -69px;
+        background-color: #A94064;
+      }
+
+      #section2 {
+        background-color: #bbb5a7;
+      }
+
+      #section3 {
+        background-color: #8b2e25;
+      }
+
+      #section4 {
+        background-color: #787254;
+      }
+
+      /* Remove underline from links/change colour */
+      a {
+        text-decoration: none;
+        color: #F3D1DC;
+      }
+
+      #footer {
+        background-color: #F3D1DC;
+        color: #B16E46;
+        padding: 10px;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+    <div class="header">
+      <h1> Sophia Ho </h1>
+      <p class="subtitle"> ˗ˋˏ ♡ ˎˊ˗ an aspiring digital creator! ˗ˋˏ ♡ ˎˊ˗</p>
     </div>
-    <div class="container">
-      <h1>About Me!</h1>
-      <p>Sophia is a 2A student in GBDA who has multiple different interests
-        in the digital art landscape. She hopes to work for her dream company
-        in the future, which is Riot Games. She currently enjoys playing around 
-        with graphic design, nail art and app creation. From young she has had 
-        an interest in computer science and started coding when she started university. 
-        She is currently pursueing a computing minor with the University of Waterloo!
-      </p>
-      <br>
-      <p>
-        Sophia's end goal is to fluent in coding, digital visual art
-        (animation, illustation and graphic design), and business. To work towards her goal
-        as a game designer. 
-      </p>
+    <nav>
+      <a href="#section0">About</a>
+      <a href="#section1">Hobbies</a>
+      <a href="#section2">Projects</a>
+      <a href="#section3">Inspirations</a>
+      <a href="#section4">Quiz </a>
+    </nav>
+    <div id="section0">
+      <div class="image">
+        <img src="sophiaho.png" alt="Sophia's Image" width="400px">
+      </div>
+      <div class="container">
+        <h1>About Me!</h1>
+        <p>Sophia is a 2A student in GBDA who has multiple different interests
+          in the digital art landscape. She hopes to work for her dream company
+          in the future, which is Riot Games. She currently enjoys playing around
+          with graphic design, nail art and app creation. From young she has had
+          an interest in computer science and started coding when she started university.
+          She is currently pursueing a computing minor with the University of Waterloo!
+        </p>
+        <br>
+        <p>
+          Sophia's end goal is to fluent in coding, digital visual art
+          (animation, illustation and graphic design), and business. To work towards her goal
+          as a game designer.
+        </p>
+      </div>
     </div>
-</div>
-<div id="section1">
-  <div class="container">
-  <h1> Hobbies</h1>
-     <div class="rectangle"></div>
-     <div class="rectangle1"></div>
-<p> One of Sophia's favourite hobbies she is working on right now is building her nail art porfolio, 
-  many Waterloo students love her discounted prices while providing high quality retension and art. 
-  Below is some examples of her work: 
-   
-    </p>
-    
-  </div>
+    <div id="section1">
+      <div class="container">
+        <h1> Hobbies</h1>
+        <div class="rectangle"></div>
+        <div class="rectangle1"></div>
+        <p> One of Sophia's favourite hobbies she is working on right now is building her nail art porfolio,
+          many Waterloo students love her discounted prices while providing high quality retension and art.
+          Below is some examples of her work:
+        </p>
   
-</div>
-<div id="section2">
-Your amazing content goes here!
-</div>
-<div id="section3">
-Your amazing content goes here!
-</div>
-<div id="section4">
-Your amazing content goes here!
-</div>
-  <div id="footer">
-    <p>&copy; 2023 SLSHO. All rights reserved.</p>
-  </div>
-</body>
+        <img src="nail1.png" alt="Sophia's Image" width="320px" height="350px">
+        <img src="nail2.png" alt="Sophia's Image" width="320px" height="350px">
+        <img src="nail3.png" alt="Sophia's Image" width="320px" height="350px">
+        <img src="nail4.png" alt="Sophia's Image" width="320px" height="350px">
+        <img src="nail5.png" alt="Sophia's Image" width="320px" height="350px">
+        <img src="nail6.png" alt="Sophia's Image" width="320px" height="350px">
+      </div>
+
+    </div>
+    <div id="section2">
+      Your amazing content goes here!
+    </div>
+    <div id="section3">
+      Your amazing content goes here!
+    </div>
+    <div id="section4">
+      Your amazing content goes here!
+    </div>
+    <div id="footer">
+      <p>&copy; 2023 SLSHO. All rights reserved.</p>
+    </div>
+  </body>
 </html>
